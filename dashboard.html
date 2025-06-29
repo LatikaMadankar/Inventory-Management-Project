@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="dashboardStyle.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="dashboard-left">
+            <img src="logo.png" alt="Logo" style="width: 150px;">
+            <h1>Smart Inventory Manager</h1>
+        </div>
+        <nav class="dashboard-nav">
+            <a href="#overview">Dashboard</a>
+            <a href="#inventory-section">Inventory</a>
+            <a href="#add-item-section">Add Item</a>
+            <a href="index.html#about-section">About Us</a>
+        </nav>
+    </header>
+
+    <section id="about-inventory">
+        <h2>About Inventory Management</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Inventory management makes sure raw materials and finished products are properly tracked, stored, and delivered on time. Our Smart Inventory Manager helps prevent stock shortages, makes the best use of warehouse space, and improves overall efficiency with real-time updates and easy control. It sends alerts to avoid overstocking, helps plan orders better, and connects smoothly with sales and purchasing. This way, businesses can keep the right amount of stock, reduce waste, and keep customers happy by having products ready when needed.
+                </p>
+            </div>    
+            <div class="about-image">
+                <img src="bg-img2.jpg" alt="Inventory Management Image">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="overview" class="overview-section">
+        <h2>Inventory Overview</h2>
+        <div class="overview-cards">
+            <div class="overview-card" id="card1">
+                <p>Total Items</p>
+                <h3 class="item-count">0</h3>
+            </div>
+            <div class="overview-card" id="card2">
+                <p>Low Stock Alerts</p>
+                <h3 class="low-stock-count">0</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="inventory-section">
+        <h2>Inventory List</h2>
+
+        <input type="text" id="searchInput" placeholder="Search by name or category">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            <!-- Rows added via JS -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="add-item-section">
+        <h2>Add New Inventory Item</h2>
+        
+        <form id="addItem-form">
+            <div class="form-group">
+                <input type="text" id="item-name" placeholder="Item Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="item-category" placeholder="Category" required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="item-quantity" placeholder="Quantity" required>
+            </div>
+                <button type="submit">Add Item</button>
+        </form>
+    </section>
+
+    <section id="contact-section">
+        <div class="contact-row">
+            <a href="tel:+919876543210" title="Phone">
+            <img src="https://img.icons8.com/ios-filled/24/212A31/phone.png" alt="Phone Icon" />
+            +91 98765 43210
+            </a>
+
+            <a href="mailto:info@metaengitech.com" title="Email">
+            <img src="https://img.icons8.com/ios-filled/24/212A31/new-post.png" alt="Email Icon" />
+            info@metaengitech.com
+            </a>
+
+            <a href="https://metaengitech.com/" target="_blank" title="Website">
+            <img src="https://img.icons8.com/ios-filled/24/212A31/domain.png" alt="Website Icon" />
+            metaengitech.com
+            </a>
+
+            <span title="Address">
+            <img src="https://img.icons8.com/ios-filled/24/212A31/marker.png" alt="Address Icon" />
+            Pune, Maharashtra
+            </span>
+        </div>
+
+        <div class="footer-credit">
+            <p>© 2025 Meta Engitech | Internship Project by <b>Latika Madankar</b></p>
+        </div>
+    </section>
+    
+<script src="app.js"></script>
+</body>
+</html>
