@@ -27,7 +27,7 @@ form.addEventListener("submit", function(e){
         <td>
         <div class="status-wrapper">
             <span class="status ${statusClass}">${status}</span>
-                <img src="delete.png" alt="Delete" class="delete-icon" title="Delete">
+                <img src="./images/delete.png" alt="Delete" class="delete-icon" title="Delete">
             </div>
         </td>
     `;
