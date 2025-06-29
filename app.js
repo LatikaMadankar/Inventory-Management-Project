@@ -74,7 +74,7 @@ function loadFromStorage() {
     let defaultItems = [
       { name: "ERW Steel Tubes", category: "Welded Tubes", quantity: 120 },
       { name: "Cold Pilgered Seamless Tubes", category: "Precision Tubing", quantity: 45 },
-      { name: "Automotive Exhaust Pipes", category: "Automotive Components", quantity: 15 },
+      { name: "Automotive Exhaust Pipes", category: "Automotive Components", quantity: 5 },
       { name: "Boiler Tubes", category: "Industrial Tubing", quantity: 70 }
     ];
 
