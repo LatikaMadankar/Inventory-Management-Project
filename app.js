@@ -77,7 +77,7 @@ function loadFromStorage() {
       { name: "Metal Sheets", category: "Raw Materials", quantity: 80 },
       { name: "Pipe Fittings	", category: "Accessories", quantity: 5 },
       { name: "Galvanized Steel Pipes	", category: "Welded Tubes", quantity: 85 },
-      { name: "Heat Exchanger Tubes	", category: "Industrial Tubing	", quantity: 6 }
+      { name: "Heat Exchanger Tubes	", category: "Industrial Tubing", quantity: 6 }
 
     ];
 
