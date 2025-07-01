@@ -73,9 +73,11 @@ function loadFromStorage() {
   
     let defaultItems = [
       { name: "ERW Steel Tubes", category: "Welded Tubes", quantity: 120 },
-      { name: "Cold Pilgered Seamless Tubes", category: "Precision Tubing", quantity: 45 },
-      { name: "Automotive Exhaust Pipes", category: "Automotive Components", quantity: 15 },
-      { name: "Boiler Tubes", category: "Industrial Tubing", quantity: 70 }
+      { name: "Boiler Tubes", category: "Industrial Tubing", quantity: 70 },
+      { name: "Metal Sheets", category: "Raw Materials", quantity: 80 },
+      { name: "Pipe Fittings	", category: "Accessories", quantity: 5 },
+      { name: "Galvanized Steel Pipes	", category: "Welded Tubes", quantity: 85 },
+      { name: "Heat Exchanger Tubes	", category: "Industrial Tubing	", quantity: 6 },
     ];
 
     defaultItems.forEach(item => {
